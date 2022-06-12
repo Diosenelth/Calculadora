@@ -11,7 +11,7 @@ import SwiftUI
 struct CalculadoraApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(GlobalEnviroment())
         }
     }
 }
